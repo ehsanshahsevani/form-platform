@@ -32,7 +32,7 @@ public sealed class FormsService(IFormsRepository repository, ITenantContext ten
 {
 	public async Task<Result<FormResponse>> CreateAsync(CreateFormRequest request, CancellationToken cancellationToken)
 	{
-		if (!tenant.IsResolved || tenant.TenantId == Guid.Empty)
+		if (tenant.IsResolved == false || tenant.TenantId == Guid.Empty)
 		{
 			return Result<FormResponse>.Failure(new Error("Tenant.Required", "A tenant context is required."));
 		}
