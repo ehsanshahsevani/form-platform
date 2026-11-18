@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../FormPlatform.Modules.Forms.Domain/FormPlatform.Modules.Forms.Domain.csproj" />
+    <ProjectReference Include="../FormPlatform.Modules.Forms.Contracts/FormPlatform.Modules.Forms.Contracts.csproj" />
+    <ProjectReference Include="../../../BuildingBlocks/FormPlatform.Application.Abstractions/FormPlatform.Application.Abstractions.csproj" />
+    <ProjectReference Include="../../../BuildingBlocks/FormPlatform.Domain.Abstractions/FormPlatform.Domain.Abstractions.csproj" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" />
+  </ItemGroup>
+</Project>

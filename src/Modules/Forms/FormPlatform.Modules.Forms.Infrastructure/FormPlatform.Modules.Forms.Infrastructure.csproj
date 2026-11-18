@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../FormPlatform.Modules.Forms.Domain/FormPlatform.Modules.Forms.Domain.csproj" />
+    <ProjectReference Include="../FormPlatform.Modules.Forms.Application/FormPlatform.Modules.Forms.Application.csproj" />
+    <ProjectReference Include="../../../BuildingBlocks/FormPlatform.Domain.Abstractions/FormPlatform.Domain.Abstractions.csproj" />
+    <ProjectReference Include="../../../BuildingBlocks/FormPlatform.Application.Abstractions/FormPlatform.Application.Abstractions.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" PrivateAssets="all" />
+  </ItemGroup>
+</Project>

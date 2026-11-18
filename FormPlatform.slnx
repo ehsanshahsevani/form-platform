@@ -1,0 +1,21 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/FormPlatform.Application.Abstractions/FormPlatform.Application.Abstractions.csproj" />
+    <Project Path="src/BuildingBlocks/FormPlatform.Domain.Abstractions/FormPlatform.Domain.Abstractions.csproj" />
+  </Folder>
+  <Folder Name="/src/Hosts/">
+    <Project Path="src/Hosts/FormPlatform.Api/FormPlatform.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Forms/">
+    <Project Path="src/Modules/Forms/FormPlatform.Modules.Forms.Application/FormPlatform.Modules.Forms.Application.csproj" />
+    <Project Path="src/Modules/Forms/FormPlatform.Modules.Forms.Contracts/FormPlatform.Modules.Forms.Contracts.csproj" />
+    <Project Path="src/Modules/Forms/FormPlatform.Modules.Forms.Domain/FormPlatform.Modules.Forms.Domain.csproj" />
+    <Project Path="src/Modules/Forms/FormPlatform.Modules.Forms.Infrastructure/FormPlatform.Modules.Forms.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/FormPlatform.Api.IntegrationTests/FormPlatform.Api.IntegrationTests.csproj" />
+    <Project Path="tests/FormPlatform.Modules.Forms.UnitTests/FormPlatform.Modules.Forms.UnitTests.csproj" />
+  </Folder>
+</Solution>
